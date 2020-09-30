@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sample Twitter</title>
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
+	<meta name=”viewport” content=”width=device-width, initial-scale=1”>
+</head>
+<body>
+	<div class="content">
+		
+		<header>
+			<img class="header-back" src="images/back.svg">
+			<h1>Post Tweet</h1>
+			<button type="button" class="header-button">Tweet</button>
+		</header>
+
+		<main>
+
+		<!-- Post Tweet Form -->
+		<div class="tweet-form">
+
+			<div class="tweet-form-icon">
+				<img src="images/post-default-icon.svg">
+			</div>
+
+			<div class="tweet-form-content">
+				
+				<input class="tweet-name" type="text" placeholder="Your post name" name="name">
+				
+				<textarea class="tweet-textarea" name="text" placeholder="What’s happenning?" rows="7" cols="100"></textarea>
+
+				<img class="tweet-form-image" src="images/image.svg">
+			</div>
+		</div>
+
+		</main>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="twitter.js"></script>
+</body>
+</html>
